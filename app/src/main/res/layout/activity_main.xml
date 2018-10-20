@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.amhso.digipayk.MainActivity">
+
+
+
+
+    <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+        android:layout_width="match_parent"
+        xmlns:ripple="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:clipChildren="false"
+        ripple:rippleColor="@color/border_logo"
+        ripple:rippleType="stroke"
+        ripple:strokeWidth="3dp"
+        ripple:startRadius="100dp"
+        ripple:endRadius="150dp"
+        ripple:duration="2000"
+        android:id="@+id/RipplePulseLayout">
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"/>
+
+
+        <RelativeLayout
+            android:id="@+id/sign_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/logo"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+
+            <com.example.amhso.digipayk.TouchEventView
+                android:id="@+id/login"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@+id/login_bottun" />
+
+
+            <LinearLayout
+                android:id="@+id/login_bottun"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="vertical" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/login_bottun"
+                android:text="ثبت نام" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
