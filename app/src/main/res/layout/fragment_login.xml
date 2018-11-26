@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".LoginSignupFragment.LoginFragment">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/borderfragment_top"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:fontFamily="@font/iransans500"
+                    android:text="@string/login"
+                    android:padding="20dp"
+                    android:textColor="@color/text_white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:padding="30dp"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/iransans100"
+                        android:hint="@string/email"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/border_edittext"
+                        android:layout_marginBottom="15dp"
+                        android:textColor="@color/color01"
+                        android:textColorHint="@color/color02"
+                        android:padding="5dp"
+                        android:inputType="textEmailAddress" />
+
+
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/iransans100"
+                        android:hint="@string/password"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:inputType="textPassword" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+
+            <LinearLayout
+                android:background="@drawable/borderfragment_bottom"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/dont_remember"
+                    android:textColor="@color/text_white"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/iransans100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:text="@string/not_account"
+                    android:textColor="@color/text_white"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:onClick="onClickSignup"
+                    android:fontFamily="@font/iransans100"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

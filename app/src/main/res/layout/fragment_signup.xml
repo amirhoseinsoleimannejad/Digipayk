@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".LoginSignupFragment.SignupFragment">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/borderfragment_top"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:text="@string/app_name"
+                    android:padding="20dp"
+                    android:textColor="@color/text_white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/app_name"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:inputType="textEmailAddress" />
+
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/app_name"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:inputType="textPassword" />
+
+
+
+                    <EditText
+                        android:id="@+id/email2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/app_name"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:inputType="textEmailAddress" />
+
+
+                    <EditText
+                        android:id="@+id/password2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/app_name"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:inputType="textPassword" />
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+
+            <LinearLayout
+                android:background="@drawable/borderfragment_bottom"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/app_name"
+                    android:textColor="@color/text_white"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:text="@string/app_name"
+                    android:textColor="@color/text_white"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

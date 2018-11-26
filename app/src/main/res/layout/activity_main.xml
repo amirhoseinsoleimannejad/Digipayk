@@ -39,57 +39,44 @@
             android:src="@drawable/logo"/>
 
 
-        <RelativeLayout
-            android:id="@+id/sign_login"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/logo"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="20dp"
-            android:gravity="center_vertical">
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/sign_login"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_below="@+id/logo"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:gravity="center_vertical">-->
 
 
-            <com.example.amhso.digipayk.TouchEventView
-                android:id="@+id/login"
-                android:layout_width="110dp"
-                android:layout_height="50dp"
-                android:layout_toLeftOf="@+id/login_bottun" />
+            <!--<com.example.amhso.digipayk.TouchEventView-->
+                <!--android:id="@+id/login"-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_toLeftOf="@+id/login_bottun" />-->
 
 
-            <LinearLayout
-                android:id="@+id/login_bottun"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:background="#ffffff"
-                android:gravity="center_vertical"
-                android:orientation="vertical" />
+            <!--<LinearLayout-->
+                <!--android:id="@+id/login_bottun"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:background="#ffffff"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="vertical" />-->
 
-            <Button
-                android:layout_width="110dp"
-                android:layout_height="50dp"
-                android:layout_toRightOf="@+id/login_bottun"
-                android:text="ثبت نام" />
-
-
-        </RelativeLayout>
+            <!--<Button-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_toRightOf="@+id/login_bottun"-->
+                <!--android:text="ثبت نام" />-->
 
 
-
-
-
+        <!--</RelativeLayout>-->
 
 
 
     </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
-
-
-
-
-
-
-
-
 
 
 </RelativeLayout>

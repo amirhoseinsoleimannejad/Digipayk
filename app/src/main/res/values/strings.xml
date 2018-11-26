@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Digipayk</string>
+
+    <string name="email">ایمیل یا رایانامه</string>
+    <string name="password">نام کاربری</string>
+    <string name="login">ورود</string>
+    <string name="dont_remember">فراموشی رمز عبور!</string>
+    <string name="not_account">حساب کاربری ندارم</string>
 </resources>
